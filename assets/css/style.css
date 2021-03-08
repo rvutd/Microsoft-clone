@@ -22,4 +22,66 @@ body, html {
 body {
     background-color: #FFFFFF;
     font-family: sans-serif;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.3;
+}
+
+p {
+    line-height: 1.3;
+    margin: 5px 0;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--grey-color);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+li {
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+/* NavBar */
+
+.navbar .container {
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.navbar img {
+    width: 70px;
+    height: 70px;
+}
+
+/* Hero Section */
+.hero .container {
+    background: #EAEAEA;
+    height: 500px;
+}
+
+.hero .left-sec {
+    padding-left: 40px;
+    display: block;
+    width: 50%;
+}
+
+.hero .right-sec {
+    display: block;
+    width: 50%;
+}
+
+.hero p {
+    max-width: 35em;
 }

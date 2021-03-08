@@ -1,2 +1,15 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Text Sizes */
 
 
