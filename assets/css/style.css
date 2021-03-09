@@ -49,7 +49,6 @@ li {
 
 /* NavBar */
 .navbar .container {
-    padding: 0 5px;
     align-items: center;
     justify-content: space-between;   
 }
@@ -64,7 +63,7 @@ li {
 }
 
 /* Hero Section */
-.hero .container {
+.hero .inner-container {
     background: #E6E6E6;
     height: 65vh;
 }
@@ -115,8 +114,9 @@ li {
 .about-products-card h3 { margin-top: 20px; }
 
 /* Hero 2 */
-.hero-2 .container {
-    margin: 5vh auto;
+.hero-2 .inner-container {
+    margin: 0 auto;
+    margin-top: 5vh;
     background: url(../images/lady-img.jfif) no-repeat;
     height: 70vh;
     position: relative;
@@ -131,18 +131,17 @@ li {
 }
 
 /* About Products */
-.about-products-2 { margin: 40px auto; }
+.about-products-2 { margin-bottom: 40px; }
+
 
 /* Covid Response */
-.response .container {
+.response .inner-container {
     background: #E6E6E6;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 15px 0;
     text-align: center;
 }
 
 /* Socialize Section */
-.socialize { margin: 20px 0;}
-
 .socialize p { margin-right: 10px;}
 
 .socialize img {
@@ -157,9 +156,11 @@ li {
 }
 
 /* Footer */
-.customer-footer {
-    background: #F2F2F2;
-    padding: 20px 0;
+.customer-footer { background: #F2F2F2; }
+
+.upper-footer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .customer-footer .upper-footer ul, .customer-footer .upper-footer li {
@@ -167,11 +168,9 @@ li {
     padding: 0;
 }
 
-.customer-footer .upper-footer { margin-bottom: 15px; }
-
 .customer-footer .upper-footer nav {
     width: 28vh;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 footer h3 {
@@ -181,16 +180,17 @@ footer h3 {
 }
 
 .customer-footer .upper-footer li {
-    font-size: 12px;
+    font-size: 11px;
     color: #616161;
-    margin: 20px 0px;
+    margin: 10px 0;
 }
 
 .customer-footer .lower-footer { justify-content: space-between; }
 
 .customer-footer .lower-footer {
-    font-size: 12px;
+    font-size: 11px;
     color: #616161;
+    margin-bottom: 20px;
 }
 
 .customer-footer .upper-footer li:hover, 
