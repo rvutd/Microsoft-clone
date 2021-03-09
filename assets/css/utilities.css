@@ -25,11 +25,18 @@
     background: #000;
 }
 
-.black-btn span { transition: padding 0.2s ease-in; }
+.black-btn span { transition: margin 0.2s ease-in; }
 
 .black-btn span:hover {
     text-decoration: underline;
-    padding: 0 10px 0 3px;
+    margin: 0 10px 0 -3px;
+}
+
+.trans-btn span { transition: margin 0.2s ease-in; }
+
+.trans-btn span:hover {
+    margin: 0 10px 0 -5px;
+    border-bottom: 2.5px solid #000;
 }
 
 .blue-btn {
