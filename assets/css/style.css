@@ -111,7 +111,7 @@ li {
 /* Hero 2 */
 .hero-2 .container {
     margin: 5vh auto;
-    background: url(../images/lady-img.jfif);
+    background: url(../images/lady-img.jfif) no-repeat;
     height: 70vh;
     position: relative;
 }
