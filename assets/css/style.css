@@ -53,13 +53,9 @@ li {
     justify-content: space-between;   
 }
 
-.navbar a {
-    font-size: 14px;
-}
+.navbar a { font-size: 12px; }
 
-.navbar a:hover {
-    border-bottom: 2px solid #000;
-}
+.navbar a:hover { border-bottom: 2px solid #000; }
 
 .navbar img {
     width: 110px;
@@ -83,9 +79,7 @@ li {
     height: 100%;
 }
 
-.hero p {
-    max-width: 35em;
-}
+.hero p { max-width: 35em; }
 
 /* Products */
 .products .container { 
@@ -103,9 +97,7 @@ li {
     margin: 40px 20px;
 }
 
-.products .products-card:hover {
-    text-decoration: underline;
-}
+.products .products-card:hover { text-decoration: underline; }
 
 /* About Products */
 .about-products img { height: 23vh; }
@@ -135,9 +127,7 @@ li {
 }
 
 /* About Products */
-.about-products-2 {
-    margin: 40px auto;
-}
+.about-products-2 { margin: 40px auto; }
 
 /* Covid Response */
 .response .container {
@@ -145,6 +135,7 @@ li {
     padding: 30px 0 20px 0;
     text-align: center;
 }
+.response .black-btn { margin: 10px auto; }
 
 /* Socialize Section */
 .socialize { margin: 20px 0;}
@@ -173,9 +164,7 @@ li {
     padding: 0;
 }
 
-.customer-footer .upper-footer {
-    margin-bottom: 20px;
-}
+.customer-footer .upper-footer { margin-bottom: 20px; }
 
 .customer-footer .upper-footer nav {
     width: 28vh;
@@ -184,4 +173,3 @@ li {
 }
 
 .customer-footer .lower-footer { justify-content: space-between; }
-
