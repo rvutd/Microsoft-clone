@@ -67,7 +67,7 @@ li {
 
 /* Hero Section */
 .hero .container {
-    background: #EAEAEA;
+    background: #E6E6E6;
     height: 500px;
 }
 
@@ -78,10 +78,100 @@ li {
 }
 
 .hero .right-sec {
-    display: block;
     width: 50%;
+    height: 100%;
 }
 
 .hero p {
     max-width: 35em;
 }
+
+/* Products */
+.products { text-align: center; }
+
+.products .container { justify-content: center; }
+
+.products img {
+    width: 40px;
+    height: 40px;
+} 
+
+.products .products-card {
+    max-width: 120px;
+    margin: 40px 20px;
+}
+
+/* About Products */
+.about-products img { height: 23vh; }
+
+.about-products-card h3 {
+    margin-top: 20px;
+}
+
+/* Hero 2 */
+.hero-2 .container {
+    margin: 5vh auto;
+    background: url(../images/lady-img.jfif);
+    height: 70vh;
+    position: relative;
+}
+
+.hero-2 .content {
+    position: absolute;
+    max-width: 55vh;
+    top: 50%;
+    left: 15vh;
+    transform: translateY(-50%);
+}
+
+/* About Products */
+.about-products-2 {
+    margin: 40px auto;
+}
+
+/* Covid Response */
+.response .container {
+    background: #E6E6E6;
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+/* Socialize Section */
+.socialize { margin: 20px 0;}
+
+.socialize p { margin-right: 10px;}
+
+.socialize img {
+    width: 25px;
+    height: 25px;
+}
+
+.socialize ul, .socialize li {
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+/* Footer */
+.customer-footer {
+    background: #F2F2F2;
+    padding: 20px 0;
+}
+
+.customer-footer .upper-footer ul, .customer-footer .upper-footer li {
+    margin: 0;
+    padding: 0;
+}
+
+.customer-footer .upper-footer {
+    margin-bottom: 20px;
+}
+
+.customer-footer .upper-footer nav {
+    width: 28vh;
+    padding: 50px 0;
+    
+}
+
+.customer-footer .lower-footer { justify-content: space-between; }
+

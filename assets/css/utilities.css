@@ -10,6 +10,15 @@
     align-items: center;
 }
 
+.grid {
+    display: grid;
+}
+
+.grid-4 {
+    grid-template-columns:repeat(4, 1fr);
+    column-gap: 40px;
+}
+
 /* Text Sizes */
 
 
