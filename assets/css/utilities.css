@@ -18,7 +18,57 @@
     grid-template-columns:repeat(4, 1fr);
     column-gap: 40px;
 }
+/* Buttons */
+.black-btn {
+    padding: 10px 20px;
+    color: var(--white-color);
+    background: #000;
+    transition: padding 0.2s ease-in;
+}
 
-/* Text Sizes */
+.black-btn:hover {
+    text-decoration: underline;
+    padding: 10px 25px;
+}
 
+.blue-btn {
+    color: #0067b8;
+    transition: margin-right 0.2s ease-in;
+    margin-right: 5px;
+}
 
+.blue-btn:hover {
+    margin-right: 10px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #0067b8;
+}
+
+/* Font Sizes */
+.sm { font-size: 1rem;}
+.md{ font-size: 2rem;}
+.lg { font-size: 3rem;}
+.xl { font-size: 4rem;}
+
+/* Margins */
+.m-1 { margin: 1rem;}
+.m-2 { margin: 2rem;}
+.m-3 { margin: 3rem;}
+.m-4 { margin: 4rem;}
+
+/* Margins Y axis*/
+.my-1 { margin: 1rem 0;}
+.my-2 { margin: 2rem 0;}
+.my-3 { margin: 3rem 0;}
+.my-4 { margin: 4rem 0;}
+
+/* Padding */
+.p-1 { padding: 1rem;}
+.p-2 { padding: 2rem;}
+.p-3 { padding: 3rem;}
+.p-4 { padding: 4rem;}
+
+/* Padding Y axis */
+.py-1 { padding: 1rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
+.py-4 { padding: 4rem 0;}
