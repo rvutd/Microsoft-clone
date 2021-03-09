@@ -88,9 +88,10 @@ li {
 }
 
 /* Products */
-.products { text-align: center; }
-
-.products .container { justify-content: center; }
+.products .container { 
+    justify-content: center; 
+    text-align: center;
+}
 
 .products img {
     width: 40px;
@@ -98,8 +99,12 @@ li {
 } 
 
 .products .products-card {
-    max-width: 120px;
+    max-width: 140px;
     margin: 40px 20px;
+}
+
+.products .products-card:hover {
+    text-decoration: underline;
 }
 
 /* About Products */
@@ -110,7 +115,7 @@ li {
 }
 
 .about-products-card h3 {
-    margin-top: 20px;
+    margin-top: 20px;   
 }
 
 /* Hero 2 */

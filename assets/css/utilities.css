@@ -10,9 +10,7 @@
     align-items: center;
 }
 
-.grid {
-    display: grid;
-}
+.grid { display: grid; }
 
 .grid-4 {
     grid-template-columns:repeat(4, 1fr);
@@ -20,15 +18,19 @@
 }
 /* Buttons */
 .black-btn {
-    padding: 10px 20px;
+    width: 175px;
+    padding: 10px 15px;
     color: var(--white-color);
     background: #000;
+}
+
+.black-btn span {
     transition: padding 0.2s ease-in;
 }
 
-.black-btn:hover {
+.black-btn span:hover {
     text-decoration: underline;
-    padding: 10px 25px;
+    padding: 0 10px 0 3px;
 }
 
 .blue-btn {
